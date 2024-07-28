@@ -1,0 +1,9 @@
+Analyzing dependencies
+Downloading dependencies
+[32mInstalling Masonry (1.1.0)[0m
+Generating Pods project
+Integrating client projects
+[31m[!] Could not automatically select an Xcode workspace. Specify one in your Podfile like so:
+
+    workspace 'path/to/Workspace.xcworkspace'
+[0m

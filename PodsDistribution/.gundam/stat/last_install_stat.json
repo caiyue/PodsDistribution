@@ -1,0 +1,29 @@
+{
+  "items": [
+    {
+      "pod_version": "1.15.2",
+      "start_time": "2024-07-23T17:15:27.917+08:00",
+      "success": false,
+      "git": {
+        "user_name": "caiyue",
+        "user_email": "caiyue@kuaishou.com",
+        "branch": "main",
+        "commit": "6da2271",
+        "remote": "",
+        "whoami": "caiyue"
+      },
+      "upload_time": "2024-07-23T17:15:27.917+08:00",
+      "upload_ts": 1721726127,
+      "ruby_version": "2.7.4",
+      "os_version": "14.2.1",
+      "ip": "172.16.104.85",
+      "cpu": "Apple M2 Pro",
+      "xcode_version": "15.2",
+      "xcode_build_version": "15C500b",
+      "errors": "[!] Could not automatically select an Xcode workspace. Specify one in your Podfile like so:\n\n    workspace 'path/to/Workspace.xcworkspace'\n",
+      "name": "pod install error",
+      "task_id": null,
+      "pod_install_id": "f256b849b52ce94b2ed91a056585670a"
+    }
+  ]
+}

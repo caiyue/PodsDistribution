@@ -1,0 +1,8 @@
+Analyzing dependencies
+[31m[!] Unable to find a specification for `FormControls`
+
+You have either:
+ * out-of-date source repos which you can update with `pod repo update` or with `pod install --repo-update`.
+ * mistyped the name or version.
+ * not added the source repo that hosts the Podspec to your Podfile.
+[0m

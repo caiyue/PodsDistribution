@@ -1,0 +1,462 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6762905F2C4A49BF00490E67 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6762905E2C4A49BF00490E67 /* AppDelegate.m */; };
+		676290642C4A49C100490E67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 676290632C4A49C100490E67 /* Assets.xcassets */; };
+		676290692C4A49C100490E67 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 676290682C4A49C100490E67 /* main.m */; };
+		676290722C4A6D9800490E67 /* KCODistributionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 676290712C4A6D9800490E67 /* KCODistributionViewController.m */; };
+		677770492C4FA2EC00834B60 /* NSDistributonTableRowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 677770482C4FA2EC00834B60 /* NSDistributonTableRowView.m */; };
+		6777706D2C50B0FE00834B60 /* KCOPodspecModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6777706C2C50B0FE00834B60 /* KCOPodspecModel.m */; };
+		677770702C50D69300834B60 /* warn.png in Resources */ = {isa = PBXBuildFile; fileRef = 6777706F2C50D69300834B60 /* warn.png */; };
+		677770732C50E22F00834B60 /* KCOTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 677770722C50E22F00834B60 /* KCOTableView.m */; };
+		677770762C50F06A00834B60 /* KCOTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 677770752C50F06A00834B60 /* KCOTextField.m */; };
+		677770792C50F42B00834B60 /* KCODashedLineSeparatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 677770782C50F42B00834B60 /* KCODashedLineSeparatorView.m */; };
+		6777707C2C5102A200834B60 /* KCORepoChecker.m in Sources */ = {isa = PBXBuildFile; fileRef = 6777707B2C5102A200834B60 /* KCORepoChecker.m */; };
+		6777707F2C51263200834B60 /* KCOLocaiization.m in Sources */ = {isa = PBXBuildFile; fileRef = 6777707E2C51263200834B60 /* KCOLocaiization.m */; };
+		67E7EB7E2C554C8800A48B07 /* KCOToastController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67E7EB7D2C554C8800A48B07 /* KCOToastController.m */; };
+		6C253D80ED5BB933FE33F741 /* libPods-PodsDistribution.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C007EC9276B17CB3A6F46AA9 /* libPods-PodsDistribution.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		39E1772E620319D70043C97B /* Pods-PodsDistribution.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PodsDistribution.release.xcconfig"; path = "Target Support Files/Pods-PodsDistribution/Pods-PodsDistribution.release.xcconfig"; sourceTree = "<group>"; };
+		6762905A2C4A49BF00490E67 /* PodsDistribution.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PodsDistribution.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6762905D2C4A49BF00490E67 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6762905E2C4A49BF00490E67 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		676290632C4A49C100490E67 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		676290682C4A49C100490E67 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6762906A2C4A49C100490E67 /* PodsDistribution.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PodsDistribution.entitlements; sourceTree = "<group>"; };
+		676290702C4A6D9800490E67 /* KCODistributionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KCODistributionViewController.h; sourceTree = "<group>"; };
+		676290712C4A6D9800490E67 /* KCODistributionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KCODistributionViewController.m; sourceTree = "<group>"; };
+		677770472C4FA2EC00834B60 /* NSDistributonTableRowView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSDistributonTableRowView.h; sourceTree = "<group>"; };
+		677770482C4FA2EC00834B60 /* NSDistributonTableRowView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSDistributonTableRowView.m; sourceTree = "<group>"; };
+		6777706A2C4FDA5E00834B60 /* KCommonHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KCommonHeader.h; sourceTree = "<group>"; };
+		6777706B2C50B0FE00834B60 /* KCOPodspecModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KCOPodspecModel.h; sourceTree = "<group>"; };
+		6777706C2C50B0FE00834B60 /* KCOPodspecModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KCOPodspecModel.m; sourceTree = "<group>"; };
+		6777706F2C50D69300834B60 /* warn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = warn.png; sourceTree = "<group>"; };
+		677770712C50E22F00834B60 /* KCOTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KCOTableView.h; sourceTree = "<group>"; };
+		677770722C50E22F00834B60 /* KCOTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KCOTableView.m; sourceTree = "<group>"; };
+		677770742C50F06A00834B60 /* KCOTextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KCOTextField.h; sourceTree = "<group>"; };
+		677770752C50F06A00834B60 /* KCOTextField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KCOTextField.m; sourceTree = "<group>"; };
+		677770772C50F42B00834B60 /* KCODashedLineSeparatorView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KCODashedLineSeparatorView.h; sourceTree = "<group>"; };
+		677770782C50F42B00834B60 /* KCODashedLineSeparatorView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KCODashedLineSeparatorView.m; sourceTree = "<group>"; };
+		6777707A2C5102A200834B60 /* KCORepoChecker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KCORepoChecker.h; sourceTree = "<group>"; };
+		6777707B2C5102A200834B60 /* KCORepoChecker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KCORepoChecker.m; sourceTree = "<group>"; };
+		6777707D2C51263200834B60 /* KCOLocaiization.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KCOLocaiization.h; sourceTree = "<group>"; };
+		6777707E2C51263200834B60 /* KCOLocaiization.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KCOLocaiization.m; sourceTree = "<group>"; };
+		67E7EB7C2C554C8800A48B07 /* KCOToastController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KCOToastController.h; sourceTree = "<group>"; };
+		67E7EB7D2C554C8800A48B07 /* KCOToastController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KCOToastController.m; sourceTree = "<group>"; };
+		C007EC9276B17CB3A6F46AA9 /* libPods-PodsDistribution.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PodsDistribution.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D44F6C41B21187F9DC7A9AE8 /* Pods-PodsDistribution.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PodsDistribution.debug.xcconfig"; path = "Target Support Files/Pods-PodsDistribution/Pods-PodsDistribution.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		676290572C4A49BF00490E67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C253D80ED5BB933FE33F741 /* libPods-PodsDistribution.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		676290512C4A49BF00490E67 = {
+			isa = PBXGroup;
+			children = (
+				6762905C2C4A49BF00490E67 /* PodsDistribution */,
+				6762905B2C4A49BF00490E67 /* Products */,
+				85758E1C68F5BF38123C6BEA /* Pods */,
+				77B7B0BFBD026B09CB39A505 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6762905B2C4A49BF00490E67 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6762905A2C4A49BF00490E67 /* PodsDistribution.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6762905C2C4A49BF00490E67 /* PodsDistribution */ = {
+			isa = PBXGroup;
+			children = (
+				67E7D0342C539E6D00A48B07 /* Views */,
+				6762905D2C4A49BF00490E67 /* AppDelegate.h */,
+				6762905E2C4A49BF00490E67 /* AppDelegate.m */,
+				676290632C4A49C100490E67 /* Assets.xcassets */,
+				676290702C4A6D9800490E67 /* KCODistributionViewController.h */,
+				676290712C4A6D9800490E67 /* KCODistributionViewController.m */,
+				6777706A2C4FDA5E00834B60 /* KCommonHeader.h */,
+				6777706B2C50B0FE00834B60 /* KCOPodspecModel.h */,
+				6777706C2C50B0FE00834B60 /* KCOPodspecModel.m */,
+				6777707A2C5102A200834B60 /* KCORepoChecker.h */,
+				6777707B2C5102A200834B60 /* KCORepoChecker.m */,
+				676290682C4A49C100490E67 /* main.m */,
+				6777707D2C51263200834B60 /* KCOLocaiization.h */,
+				6777707E2C51263200834B60 /* KCOLocaiization.m */,
+				6762906A2C4A49C100490E67 /* PodsDistribution.entitlements */,
+				6777706E2C50D69300834B60 /* Resources */,
+			);
+			path = PodsDistribution;
+			sourceTree = "<group>";
+		};
+		6777706E2C50D69300834B60 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6777706F2C50D69300834B60 /* warn.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		67E7D0342C539E6D00A48B07 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				677770772C50F42B00834B60 /* KCODashedLineSeparatorView.h */,
+				677770782C50F42B00834B60 /* KCODashedLineSeparatorView.m */,
+				677770712C50E22F00834B60 /* KCOTableView.h */,
+				677770722C50E22F00834B60 /* KCOTableView.m */,
+				677770742C50F06A00834B60 /* KCOTextField.h */,
+				677770752C50F06A00834B60 /* KCOTextField.m */,
+				67E7EB7C2C554C8800A48B07 /* KCOToastController.h */,
+				67E7EB7D2C554C8800A48B07 /* KCOToastController.m */,
+				677770472C4FA2EC00834B60 /* NSDistributonTableRowView.h */,
+				677770482C4FA2EC00834B60 /* NSDistributonTableRowView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		77B7B0BFBD026B09CB39A505 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C007EC9276B17CB3A6F46AA9 /* libPods-PodsDistribution.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		85758E1C68F5BF38123C6BEA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D44F6C41B21187F9DC7A9AE8 /* Pods-PodsDistribution.debug.xcconfig */,
+				39E1772E620319D70043C97B /* Pods-PodsDistribution.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		676290592C4A49BF00490E67 /* PodsDistribution */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6762906D2C4A49C100490E67 /* Build configuration list for PBXNativeTarget "PodsDistribution" */;
+			buildPhases = (
+				764C05802CD0321E993FD09A /* [CP] Check Pods Manifest.lock */,
+				676290562C4A49BF00490E67 /* Sources */,
+				676290572C4A49BF00490E67 /* Frameworks */,
+				676290582C4A49BF00490E67 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PodsDistribution;
+			productName = PodsDistribution;
+			productReference = 6762905A2C4A49BF00490E67 /* PodsDistribution.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		676290522C4A49BF00490E67 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					676290592C4A49BF00490E67 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = 676290552C4A49BF00490E67 /* Build configuration list for PBXProject "PodsDistribution" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 676290512C4A49BF00490E67;
+			productRefGroup = 6762905B2C4A49BF00490E67 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				676290592C4A49BF00490E67 /* PodsDistribution */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		676290582C4A49BF00490E67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				676290642C4A49C100490E67 /* Assets.xcassets in Resources */,
+				677770702C50D69300834B60 /* warn.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		764C05802CD0321E993FD09A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PodsDistribution-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		676290562C4A49BF00490E67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67E7EB7E2C554C8800A48B07 /* KCOToastController.m in Sources */,
+				6777706D2C50B0FE00834B60 /* KCOPodspecModel.m in Sources */,
+				677770792C50F42B00834B60 /* KCODashedLineSeparatorView.m in Sources */,
+				676290692C4A49C100490E67 /* main.m in Sources */,
+				6777707C2C5102A200834B60 /* KCORepoChecker.m in Sources */,
+				677770492C4FA2EC00834B60 /* NSDistributonTableRowView.m in Sources */,
+				677770762C50F06A00834B60 /* KCOTextField.m in Sources */,
+				677770732C50E22F00834B60 /* KCOTableView.m in Sources */,
+				6777707F2C51263200834B60 /* KCOLocaiization.m in Sources */,
+				676290722C4A6D9800490E67 /* KCODistributionViewController.m in Sources */,
+				6762905F2C4A49BF00490E67 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6762906B2C4A49C100490E67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		6762906C2C4A49C100490E67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		6762906E2C4A49C100490E67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D44F6C41B21187F9DC7A9AE8 /* Pods-PodsDistribution.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PodsDistribution/PodsDistribution.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 33K7ZG5QZE;
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = "";
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kuaishou.PodsDistribution;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Debug;
+		};
+		6762906F2C4A49C100490E67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39E1772E620319D70043C97B /* Pods-PodsDistribution.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PodsDistribution/PodsDistribution.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 33K7ZG5QZE;
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = "";
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kuaishou.PodsDistribution;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		676290552C4A49BF00490E67 /* Build configuration list for PBXProject "PodsDistribution" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6762906B2C4A49C100490E67 /* Debug */,
+				6762906C2C4A49C100490E67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6762906D2C4A49C100490E67 /* Build configuration list for PBXNativeTarget "PodsDistribution" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6762906E2C4A49C100490E67 /* Debug */,
+				6762906F2C4A49C100490E67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 676290522C4A49BF00490E67 /* Project object */;
+}
